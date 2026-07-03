@@ -20,9 +20,9 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/ecommerce-lanas/" element={<Home buscarTermino = {buscarTermino} />}></Route>
-            <Route path="/ecommerce-lanas/producto/:id" element={<DetailsProducts />}></Route>
-            <Route path="/ecommerce-lanas/carrito" element={<Cart />}></Route>
-            <Route path="/ecommerce-lanas/search" element={<Search onSearch = {handleBuscar} />}></Route>
+            <Route path="/producto/:id" element={<DetailsProducts />}></Route>
+            <Route path="/carrito" element={<Cart />}></Route>
+            <Route path="/search" element={<Search onSearch = {handleBuscar} />}></Route>
           </Routes>
         </Router>
       </CartProvider>

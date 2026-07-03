@@ -14,7 +14,7 @@ const Navbar = () => {
             <ul className='nav-links'>
                 <li>
                     {/* CORREGIDO: Link con mayúscula */}
-                    <Link to="/">Home</Link>
+                    <Link to="/ecommerce-lanas/">Home</Link>
                 </li>
             </ul>
         </nav>
